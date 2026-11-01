@@ -1,0 +1,11 @@
+pytest==9.2.0
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+data/pipeline.db
+data/pipeline.db-shm
+data/pipeline.db-wal
+
+data/incoming/large_*.jsonl
